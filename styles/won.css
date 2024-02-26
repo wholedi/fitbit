@@ -1,0 +1,55 @@
+.won__container {
+    font-weight: 700;
+}
+
+.won__img {
+    max-width: 354px;
+    max-height: 379px;
+    margin-bottom: 54px;
+}
+
+.won__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.won__subtitle,
+.list {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.won__subtitle {
+    margin-bottom: 29px;
+}
+
+.list--mb53 {
+    margin-bottom: 53px;
+}
+
+@media screen and (max-width: 768px) {
+    .won__img {
+        max-width: 228px;
+        max-height: 240px;
+        margin-bottom: 20px;
+    }
+
+    .won__title {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .won__subtitle,
+    .list {
+        font-size: 14px;
+    }
+
+    .won__subtitle {
+        margin-bottom: 12px;
+    }
+
+    .list--mb53 {
+        margin-bottom: 20px;
+    }
+}
